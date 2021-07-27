@@ -1,0 +1,108 @@
+body{
+    background-color: dimgrey;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.container{
+   outline: none;
+    border:none;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px auto;
+    cursor: pointer;
+    background-color: transparent;
+    position: relative;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+
+
+
+.btnshake {
+    color: rgb(250, 87, 87);
+    font-size: 40px;
+    background: rgb(240, 230, 98);
+  }
+  .btnshake:hover {
+    border-color: rgb(250,87,87);
+    color: rgb(250,87,87);
+    animation: shake 0.3s linear 1;
+    -webkit-animation: shake 0.3s linear 1;
+    -moz-animation: shake0.3s linear 1;
+    -o-animation: shake 0.3s linear 1;
+    -ms-animation: shake 0.3s linear 1;
+  }
+  
+  @keyframes shake {
+    33% {
+      transform: rotateZ(10deg);
+      -webkit-transform: rotateZ(10deg);
+      -moz-transform: rotateZ(10deg);
+      -o-transform: rotateZ(10deg);
+      -ms-transform: rotateZ(10deg);
+    }
+    67% {
+      transform: rotateZ(-10deg);
+      -webkit-transform: rotateZ(-10deg);
+      -moz-transform: rotateZ(-10deg);
+      -o-transform: rotateZ(-10deg);
+      -ms-transform: rotateZ(-10deg);
+    }
+    100% {
+      transform: rotateZ(10deg);
+      -webkit-transform: rotateZ(10deg);
+      -moz-transform: rotateZ(10deg);
+      -o-transform: rotateZ(10deg);
+      -ms-transform: rotateZ(10deg);
+    }
+  }
+
+.btnstretch {
+background: teal;
+width:200px;
+height:100px;
+}
+
+
+    
+button {
+    font-size:30px;
+}
+  
+  .btnstretch:hover {
+    color: #36e7f4;
+    -webkit-transition: width 4s;
+    width:300px;
+    letter-spacing: 9px;
+  }
+
+
+  .btnstretch:hover {
+    letter-spacing: 8px;
+    color: #36e7f4;
+    -webkit-transition: width 4s;
+    width: 300px;
+  }
+
+.btnborder {
+    height:80px;
+    width:200px;
+}
+ 
+.btnborder{ 
+    background-color: purple;
+}
+   
+   .btnborder:hover {     
+     box-shadow : 0px 0px 0px 3px white, 0px 0px 0px 5px purple;
+   }
+ 
